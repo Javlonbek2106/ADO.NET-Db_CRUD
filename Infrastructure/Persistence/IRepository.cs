@@ -9,7 +9,7 @@
         public Task AddAsync(T obj);
         public Task AddRangeAsync(List<T> obj);
 
-        public Task<bool> UpdateAsync(int Id,  T entity);
+        public Task<bool> UpdateAsync(int id,  T entity);
         public Task DeleteAsync(int id);
 
     }

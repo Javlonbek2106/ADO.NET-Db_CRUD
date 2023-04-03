@@ -30,7 +30,8 @@ namespace EKundalik.Infrastructure.Persistence
                  (
                     id serial not null,
                     book_id integer not null references book(book_id),
-                    author_id integer not null references author(author_id)
+                    author_id integer not null references author(author_id),
+                    PRIMARY KEY (id)
                 );";
 
                 NpgsqlCommand command = new(query, connection);

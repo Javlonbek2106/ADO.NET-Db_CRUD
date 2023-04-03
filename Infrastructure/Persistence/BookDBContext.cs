@@ -25,7 +25,7 @@ namespace Infrastructure.Persistence
                 }
                 else
                 {
-                    Console.WriteLine("failed. ");
+                    Console.WriteLine("failed . ");
                 }
 
             }
